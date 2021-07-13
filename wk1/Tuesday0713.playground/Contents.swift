@@ -39,6 +39,7 @@ if isSponsoredByHH == true {
 
 
 //appropriately place students
+
 let studentCharacter = "brave"
 
 if studentCharacter == "cunning" || studentCharacter == "ambitious" {
@@ -67,7 +68,7 @@ func buyFW(withAmount qt: Int) {
 }
 
 //buy some Chocolate Frogs
-func butCFForWholeFamily(sizeOfFamily qt: Int) {
+func buyCFForWholeFamily(sizeOfFamily qt: Int) {
     let cost = Double(qt) * 3.0
     
     if goldInMyVault - cost >= 0.0 {
