@@ -11,13 +11,17 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearningXcode40" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstApp40" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXT-Mw-MX3">
-                                <rect key="frame" x="165.5" y="425.5" width="83" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD9-KX-507">
+                                <rect key="frame" x="177" y="430.5" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="s6O-wi-IF8"/>
+                                    <constraint firstAttribute="width" constant="60" id="wpY-Am-Oz6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,16 +30,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="cXT-Mw-MX3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="3av-yK-WAS"/>
-                            <constraint firstItem="cXT-Mw-MX3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="Xcu-kU-zxG"/>
-                            <constraint firstItem="cXT-Mw-MX3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hA6-9m-1Wv"/>
-                            <constraint firstItem="cXT-Mw-MX3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z7Y-yx-oME"/>
+                            <constraint firstItem="xD9-KX-507" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IGh-aL-F5H"/>
+                            <constraint firstItem="xD9-KX-507" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="itV-Qf-EyQ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-804" y="-79"/>
+            <point key="canvasLocation" x="-39" y="-37"/>
         </scene>
     </scenes>
     <resources>
