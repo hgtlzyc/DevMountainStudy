@@ -115,8 +115,8 @@
 		E9C62E0426A0C9070005E218 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E9C62E0B26A0CC650005E218 /* PlanetDetailViewController.swift */,
 				E9C62E0D26A0CC770005E218 /* PlanetListTableViewController.swift */,
+				E9C62E0B26A0CC650005E218 /* PlanetDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
