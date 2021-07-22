@@ -16,7 +16,7 @@ func generateNumString(_ int: Int) {
         $0.append( strArrayFor($1).map{$0.rawValue} )
     }
     
-    let minLines = str2DArr.min{ $0.count > $1.count }?.count ?? 0
+    let minLines = str2DArr.min{ $0.count > $1.count }?.count ?? 1
     
     (0...minLines - 1).reduce(into: [String]() ) { sum, next in
         var tempArr = [String]()
